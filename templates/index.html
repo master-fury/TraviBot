@@ -1,0 +1,30 @@
+<!-- Contains the HTML for the Chat Bot -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travi BOT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script type="text/javascript" src="{{ url_for('static', filename='main.js') }}"></script>
+</head>
+
+<body onload="inital_robot()">
+    <div class = "chatbox"> 
+        <div class="chat-head">
+         <img src="{{ url_for('static', filename='robo1.png') }}" > <div class="texthead">TRAVI</div>
+        </div>
+        <div class="chatlogs">
+            <div id="reply"></div>
+        </div>
+        <div class="chat-form">
+            <input type="text" id = "custom_input" class="textarea" placeholder="Type a message..." />
+            <button type="submit" onclick="human()"><i class="fa fa-paper-plane-o" style="font-size:34px; color:rgb(255, 253, 253);"></i></button>
+        </div>
+    </div>
+</body>
+
+</html>

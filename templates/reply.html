@@ -1,0 +1,12 @@
+{%if type == "robot"%}
+<div class="chat robot">         
+    <p class="chat-message"> {{ reply }}</p> 
+</div>
+<div class="rtime">{{time}}</div>
+{% else %}
+<div class="chat human">
+    <p class="chat-message">{{ reply }}</p> 
+</div>
+<div class="htime">{{time}}</div>
+</div>
+{% endif %}

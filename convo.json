@@ -1,0 +1,66 @@
+{
+    "HEY! How may I help You?":{
+        "action":"false",
+        "postion":"start",
+        "result":"HEY! How may I help You?"
+    },
+    "book a trip for me":{
+        "action":"false",
+        "postion":"start",
+        "result":"What do you want to plan? Please select among these. Business Trip or Family Trip"
+            
+    },
+    "business trip":{
+        "action":"false",
+        "positon":"start",
+        "result":"For flight booking, may I know your current city?"
+    },
+    "delhi":{
+        "action":"true",
+        "position":"start",
+        "result":"To which city do you want to travel?"
+    },
+    "pune":{
+        "action":"true",
+        "position":"middle",
+        "result":"When do you want to travel? Please enter in this format (DD/MM)?"
+    },
+    "20/06":{
+        "action":"true",
+        "position":"middle",
+        "result":"May I know your return date? Please enter in this format (DD/MM)?"
+    },
+    "25/06":{
+        "action":"true",
+        "position":"middle",
+        "result":"Do you want to book a stay?"
+    },
+    "yes":{
+        "action":"true",
+        "position":"middle",
+        "result":"Please enter the EMAIL."
+    },
+    "no":{
+        "action":"true",
+        "position":"middle",
+        "result":"Please enter the EMAIL."
+    },
+    "manish@mail.com":{
+        "action":"true",
+        "position":"end",
+        "result":"Thank you."
+    },
+    "family trip":{
+        "action":"true",
+        "position":"start",
+        "result":"How many people will travel?"
+    },
+    "4":{
+        "action":"true",
+        "position":"middle",
+        "result":"For flight booking, may I know your current city?"
+    }
+
+
+}
+
